@@ -1,6 +1,5 @@
-from keygen import generate_key
-from encryptor import xor_encrypt, xor_decrypt
-
+from .keygen import generate_key
+from .encryptor import xor_encrypt, xor_decrypt
 def run():
     text = input("Enter text to encrypt: ")
 

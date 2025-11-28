@@ -1,7 +1,9 @@
 import random
 import hashlib
 import time
-from utils.time_utils import get_timestamp, get_timezone_offset
+from .time_utils import get_timestamp, get_timezone_offset
+
+
 
 def generate_key():
     timestamp = get_timestamp()
