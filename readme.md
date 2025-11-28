@@ -14,4 +14,4 @@ Enter text to encrypt: Ayush
 🔐 Encrypted: bytearray(b'\xcfk\xf5; ')
 🔓 Decrypted: Ayush
 
-    ```
+```
